@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://474172261.github.io/"/>
+  <link href="http://v-v.space/"/>
   <updated>2020-03-29T10:19:26.380Z</updated>
-  <id>http://474172261.github.io/</id>
+  <id>http://v-v.space/</id>
   
   <author>
     <name>VictorV</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>说我之前的leader 唐青昊, 也是第一次见识到的这样卑鄙的人</title>
-    <link href="http://474172261.github.io/2020/03/29/fuck_tqh/"/>
-    <id>http://474172261.github.io/2020/03/29/fuck_tqh/</id>
+    <link href="http://v-v.space/2020/03/29/fuck_tqh/"/>
+    <id>http://v-v.space/2020/03/29/fuck_tqh/</id>
     <published>2020-03-29T07:15:15.805Z</published>
     <updated>2020-03-29T10:19:26.380Z</updated>
     
@@ -37,8 +37,8 @@
   
   <entry>
     <title>linux 内核和用户态通信之 /proc文件系统</title>
-    <link href="http://474172261.github.io/2020/03/29/linux-proc/"/>
-    <id>http://474172261.github.io/2020/03/29/linux-proc/</id>
+    <link href="http://v-v.space/2020/03/29/linux-proc/"/>
+    <id>http://v-v.space/2020/03/29/linux-proc/</id>
     <published>2020-03-29T07:00:54.368Z</published>
     <updated>2020-03-29T10:19:39.093Z</updated>
     
@@ -56,8 +56,8 @@
   
   <entry>
     <title>windows 内核调试配置</title>
-    <link href="http://474172261.github.io/2020/03/29/windows-debug-setting/"/>
-    <id>http://474172261.github.io/2020/03/29/windows-debug-setting/</id>
+    <link href="http://v-v.space/2020/03/29/windows-debug-setting/"/>
+    <id>http://v-v.space/2020/03/29/windows-debug-setting/</id>
     <published>2020-03-29T06:43:22.521Z</published>
     <updated>2020-03-29T10:16:20.967Z</updated>
     
@@ -80,8 +80,8 @@
   
   <entry>
     <title>Linux双虚拟机调试</title>
-    <link href="http://474172261.github.io/2020/03/29/linux-debug-setting/"/>
-    <id>http://474172261.github.io/2020/03/29/linux-debug-setting/</id>
+    <link href="http://v-v.space/2020/03/29/linux-debug-setting/"/>
+    <id>http://v-v.space/2020/03/29/linux-debug-setting/</id>
     <published>2020-03-29T06:22:04.760Z</published>
     <updated>2020-03-29T10:19:44.776Z</updated>
     
@@ -105,12 +105,12 @@
   
   <entry>
     <title>使用github搭建自己的博客</title>
-    <link href="http://474172261.github.io/2020/03/29/build-blog/"/>
-    <id>http://474172261.github.io/2020/03/29/build-blog/</id>
+    <link href="http://v-v.space/2020/03/29/build-blog/"/>
+    <id>http://v-v.space/2020/03/29/build-blog/</id>
     <published>2020-03-29T03:25:13.016Z</published>
-    <updated>2020-03-29T10:19:51.818Z</updated>
+    <updated>2020-03-30T01:04:01.761Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><p>首先你需要在github创建一个仓储<br><img src="/images/build-blog/create_git_respository.png" alt="ii1"></p><h2 id="安装git-npm"><a href="#安装git-npm" class="headerlink" title="安装git,npm"></a>安装git,npm</h2><p><strong>windows</strong><br>下载<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">node.js</a><br>下载<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a></p><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save  (或者npm install hexo-cli -g)</span><br></pre></td></tr></table></figure><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init MYBLOG</span><br><span class="line">cd MYBLOG</span><br></pre></td></tr></table></figure><p>“MYBLOG”是目录名称</p><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure><p>浏览器访问<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p><h2 id="添加主题"><a href="#添加主题" class="headerlink" title="添加主题"></a>添加主题</h2><p>访问<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题库</a>添加主题, 我比较喜欢<a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="noopener">Apollo</a> 不过不更新了, 暂时用 next 主题.</p><h2 id="配置github推送"><a href="#配置github推送" class="headerlink" title="配置github推送"></a>配置github推送</h2><p>获取链接<br><img src="/images/build-blog/get_git.png" alt=""><br>修改MYBLOG/_config.yml文件<br><img src="/images/build-blog/config_git.png" alt=""></p><h2 id="创建sshkey"><a href="#创建sshkey" class="headerlink" title="创建sshkey"></a>创建sshkey</h2><p>在git-bash里面使用如下指令（通过在Hexo文件夹右键选择 “Git bash here”打开）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C &quot;邮件地址@youremail.com&quot;</span><br></pre></td></tr></table></figure><p>然后根据提示enter就好(注意文件保存的位置！！)</p><p>登录github, 在Account Settings—&gt;SSH Public keys —&gt; add another public keys中添加你的sshkey.pub文件的内容<br><img src="/images/build-blog/fill_rsa.png" alt=""></p><p>测试key</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p><img src="/images/build-blog/ssh_link_test.png" alt=""></p><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n <span class="string">"网站标题"</span></span><br></pre></td></tr></table></figure><p>文章文件在Hexo\source_posts里面，后缀为md<br>这是一个markdown文件，具体语法查看markdown语法</p><p>文章内容：</p><blockquote><p>title: 文章名<br>date: 2013-05-29 07:56:29 #发表日期<br>updated: 2016-04-06 14:58:03 #更新日期<br>categories: Life #文章分类<br>description: 你对本页的描述<br>tags: [tag1,tag2] #文章标签. 多标签时使用英文逗号隔开<br>photos: #如果使用Fancybox（文章头部展示图片）. 如此设置</p><p>URL1<br>URL2<br>#从这里开始</p><p>#就是正文</p><p>#使用markdown</p></blockquote><h2 id="推送文章"><a href="#推送文章" class="headerlink" title="推送文章"></a>推送文章</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d -g</span><br></pre></td></tr></table></figure><blockquote><p>d 是deploy缩写</p></blockquote><h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><ol><li>申请域名</li><li>添加选项<br><img src="/images/build-blog/domain_set.png" alt=""></li><li>在github项目根目录添加CNAME文件, 内容我你的域名(比如 xxx.com)</li><li>进入github setting查看<br><img src="/images/build-blog/git_setting.png" alt=""><br>往下拉, 出现如下结果就成功了<br><img src="/images/build-blog/link_success.png" alt=""></li></ol><h2 id="在文章中添加图片"><a href="#在文章中添加图片" class="headerlink" title="在文章中添加图片"></a>在文章中添加图片</h2><p>第一种: 是在MYBLOG\source目录下的images目录里添加图片, 这样在首页也能引用<br>第二种: </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</span><br></pre></td></tr></table></figure><p>假设MYBLOG\source_posts里面的结构如下:<br>firstblog<br>├── apppicker.jpg<br>├── logo.jpg<br>└── rules.jpg<br>firstblog.md<br>目录名必须与md文件名一致, 使用 ![](firstblog/logo.jgp)就可以了.</p>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><p>首先你需要在github创建一个仓储<br><img src="/images/build-blog/create_git_respository.png" alt="ii1"></p><h2 id="安装git-npm"><a href="#安装git-npm" class="headerlink" title="安装git,npm"></a>安装git,npm</h2><p><strong>windows</strong><br>下载<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">node.js</a><br>下载<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a></p><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo --save  (或者npm install hexo-cli -g)</span><br></pre></td></tr></table></figure><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init MYBLOG</span><br><span class="line">cd MYBLOG</span><br></pre></td></tr></table></figure><p>“MYBLOG”是目录名称</p><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4000 . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure><p>浏览器访问<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p><h2 id="添加主题"><a href="#添加主题" class="headerlink" title="添加主题"></a>添加主题</h2><p>访问<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题库</a>添加主题, 我比较喜欢<a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="noopener">Apollo</a> 不过不更新了, 暂时用 next 主题.</p><h2 id="配置github推送"><a href="#配置github推送" class="headerlink" title="配置github推送"></a>配置github推送</h2><p>获取链接<br><img src="/images/build-blog/get_git.png" alt=""><br>修改MYBLOG/_config.yml文件<br><img src="/images/build-blog/config_git.png" alt=""></p><h2 id="创建sshkey"><a href="#创建sshkey" class="headerlink" title="创建sshkey"></a>创建sshkey</h2><p>在git-bash里面使用如下指令（通过在Hexo文件夹右键选择 “Git bash here”打开）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C &quot;邮件地址@youremail.com&quot;</span><br></pre></td></tr></table></figure><p>然后根据提示enter就好(注意文件保存的位置！！)</p><p>登录github, 在Account Settings—&gt;SSH Public keys —&gt; add another public keys中添加你的sshkey.pub文件的内容<br><img src="/images/build-blog/fill_rsa.png" alt=""></p><p>测试key</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p><img src="/images/build-blog/ssh_link_test.png" alt=""></p><h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n <span class="string">"网站标题"</span></span><br></pre></td></tr></table></figure><p>文章文件在Hexo\source_posts里面，后缀为md<br>这是一个markdown文件，具体语法查看markdown语法</p><p>文章内容：</p><blockquote><p>title: 文章名<br>date: 2013-05-29 07:56:29 #发表日期<br>updated: 2016-04-06 14:58:03 #更新日期<br>categories: Life #文章分类<br>description: 你对本页的描述<br>tags: [tag1,tag2] #文章标签. 多标签时使用英文逗号隔开<br>photos: #如果使用Fancybox（文章头部展示图片）. 如此设置</p><p>URL1<br>URL2<br>#从这里开始</p><p>#就是正文</p><p>#使用markdown</p></blockquote><h2 id="推送文章"><a href="#推送文章" class="headerlink" title="推送文章"></a>推送文章</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d -g</span><br></pre></td></tr></table></figure><blockquote><p>d 是deploy缩写</p></blockquote><h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><ol><li>申请域名</li><li>添加选项<br><img src="/images/build-blog/domain_set.png" alt=""></li><li>在github项目根目录添加CNAME文件, 内容为你的域名(比如 xxx.com)</li><li>进入github setting查看<br><img src="/images/build-blog/git_setting.png" alt=""><br>往下拉, 出现如下结果就成功了<br><img src="/images/build-blog/link_success.png" alt=""></li></ol><h2 id="在文章中添加图片"><a href="#在文章中添加图片" class="headerlink" title="在文章中添加图片"></a>在文章中添加图片</h2><p>第一种: 是在MYBLOG\source目录下的images目录里添加图片, 这样在首页也能引用<br>第二种: </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</span><br></pre></td></tr></table></figure><p>假设MYBLOG\source_posts里面的结构如下:<br>firstblog<br>├── apppicker.jpg<br>├── logo.jpg<br>└── rules.jpg<br>firstblog.md<br>目录名必须与md文件名一致, 使用 ![](firstblog/logo.jgp)就可以了.</p>]]></content>
     
     <summary type="html">
     
@@ -130,8 +130,8 @@
   
   <entry>
     <title>Linux 使用技巧</title>
-    <link href="http://474172261.github.io/2020/03/29/linux-skill/"/>
-    <id>http://474172261.github.io/2020/03/29/linux-skill/</id>
+    <link href="http://v-v.space/2020/03/29/linux-skill/"/>
+    <id>http://v-v.space/2020/03/29/linux-skill/</id>
     <published>2020-03-28T23:53:23.767Z</published>
     <updated>2020-03-29T10:19:33.800Z</updated>
     
