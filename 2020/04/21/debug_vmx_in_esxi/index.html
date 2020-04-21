@@ -20,11 +20,11 @@
 <ol>
 <li>自己源码编译一个gdb, 或者用我编译好的<a href="/otherfile/gdb7_8.xz">gdb</a>, 拷贝到esxi上</li>
 <li>运行起虚拟机</li>
-<li>运行gdb, 一般会告诉你缺失libtinfo.so.5文件或者libncurses.so.5, 最简单的方法就是创建一个软链接, 把它自带的一个文件软链接成确实的文件.<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@192:~] ln -s /lib64/libncurses.so.5 /lib64/libtinfo.so.5</span><br></pre></td></tr></table></figure>
+<li>运行gdb, 一般会告诉你缺失libtinfo.so.5文件或者libncurses.so.5, 最简单的方法就是创建一个软链接, 把它自带的一个文件软链接成缺失的文件.<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@192:~] ln -s /lib64/libncurses.so.5 /lib64/libtinfo.so.5</span><br></pre></td></tr></table></figure>
 或者从centos 7 3.10内核的系统中拷贝一个过去放在lib64目录下.</li>
 <li>使用gdb调试<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gdb$ file /bin/vmx</span><br><span class="line">gdb$ <span class="built_in">set</span> architecture i386:x86-64:intel</span><br><span class="line">gdb$ attach xxxxx</span><br></pre></td></tr></table></figure>
 
 </li>
 </ol>
 <h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>如果发现ctrl+c不好使, 那么就把虚拟机的cpu个数设置为1. 如果还是不好使, 建议重新选个guest安装测试.</p>
-</div></article></div></main><footer><div class="paginator"><a href="/2020/03/29/fuck_tqh/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2020 <a href="http://474172261.github.io">VictorV</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
+</div></article></div></main><footer><div class="paginator"><a href="/2020/03/29/fuck_tqh/" class="next">下一篇</a></div><div class="copyright"><p>© 2015 - 2020 <a href="http://474172261.github.io">VictorV</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
