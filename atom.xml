@@ -36,25 +36,6 @@
   </entry>
   
   <entry>
-    <title>说我之前的leader 唐青昊, 也是第一次见识到的这样卑鄙的人</title>
-    <link href="http://474172261.github.io/2020/03/29/fuck_tqh/"/>
-    <id>http://474172261.github.io/2020/03/29/fuck_tqh/</id>
-    <published>2020-03-29T07:15:15.805Z</published>
-    <updated>2020-03-29T10:19:26.380Z</updated>
-    
-    <content type="html"><![CDATA[<p>一直懒得吐槽<a href="https://cn.linkedin.com/in/%E9%9D%92%E6%98%8A-%E5%94%90-1b78229b" target="_blank" rel="noopener">唐青昊</a>🖕，毕竟遇到糟糕的leader大不了走人，但是有些东西会随着时间忘记，导致后来的人继续掉坑里。所以还是发个文，曝光一下这个人，让大家认清这个人，不要被他简历上的”成就”蒙蔽了双眼。</p><a id="more"></a><p>本来这个帖子是发到看雪的, 一开始还正常, 后来版主把帖子移到比较私密的会员区了, 背离了我让大家避坑的初衷, 没办法, 重新把blog整起来, 帮助大家看清楚这个人。 </p><p>一搜他，网上也是有不少的资料，我这个故事呢，从他带领 360 的marvel团队那年开始(他已经不在360了)。一部分内容是听说的，但是也基本上没假的。（该团队在核心大牛走得差不多后就解散了，他跳槽离开的时候还没有解散，只剩下开发团队的人，后来才算真解散了）</p><h2 id="首先，第一个要说的就是有他名字的cve号"><a href="#首先，第一个要说的就是有他名字的cve号" class="headerlink" title="首先，第一个要说的就是有他名字的cve号"></a>首先，第一个要说的就是有他名字的cve号</h2><p>qemu的多个cve号里，虽然有他名字，但是<strong>都和他无关</strong>，都是团队里的其它成员发现的。只不过他仗着自己是leader， 用自己的名义去提交给官方，所以cve的公开信息里只有他的名字，真的发现者的名字却没有。当然就算有怨气，人在屋檐下，其他人也没办法。</p><h2 id="第二个就是关于他的那些虚拟化逃逸的技术演讲"><a href="#第二个就是关于他的那些虚拟化逃逸的技术演讲" class="headerlink" title="第二个就是关于他的那些虚拟化逃逸的技术演讲"></a>第二个就是关于他的那些虚拟化逃逸的技术演讲</h2><p>无论是讲<strong>qemu的逃逸</strong>[1]，还是<strong>vmware workstation的逃逸</strong>[2]，技术上都和他没有一点关系。强行利用自己leader身份凑一起出去演讲，对外塑造一副自己是发现者的形象，着实卑劣。另外他要求技术大牛给他讲workstation逃逸的利用细节，本来是别人发现的利用技术，他就想占位己有，把要来的大牛的利用exp自己改个格式，写个注释，对外当作是自己写出来的样子。</p><h2 id="第三个就是出书了"><a href="#第三个就是出书了" class="headerlink" title="第三个就是出书了"></a>第三个就是出书了</h2><p>他的那本<a href="http://www.baike.com/wiki/%E4%BA%91%E8%99%9A%E6%8B%9F%E5%8C%96%E5%AE%89%E5%85%A8%E6%94%BB%E9%98%B2%E5%AE%9E%E8%B7%B5" target="_blank" rel="noopener">《云虚拟化安全攻防实践》</a>书，本来是团队凑一起写了出书，收益大家均分，这个当时都有一个临时协议纸条， 大家都有签名。后来因为核心技术研究员都被逼走了，他就说要不大家把书出完吧。本来有始有终对大家都好，但是他耍心眼，不肯把整书拿出来让大家看，还私下找一些参与者说一起出书，把其他人忽略掉，最后可能有人不同意所以被迫听取一下大家意见。鉴于他的无耻，我也就没同意把我写的那部分发布在书里，当然其它几个成员也没同意。</p><p>但是最后他还是无耻地把书给出了，还把我和其它几个技术成员的内容改得面目全非。对比他的书和我发布的帖子<a href="https://bbs.pediy.com/thread-224371.htm" target="_blank" rel="noopener">“QEMU 与 KVM 虚拟化安全研究介绍”</a>以及看雪关于hyper-v的帖子<a href="https://bbs.pediy.com/thread-222626.htm" target="_blank" rel="noopener">Hyper-V安全从0到1(1)</a>，就知道他盗用了多少，改得多烂。另外, <strong>真正由他写的内容也就第一章</strong>, 由于版权原因, 他就更换了一些内容, 把其它人给他的分析报告, 修修改改写进书里了。</p><h2 id="第四个他偷偷报大牛的洞"><a href="#第四个他偷偷报大牛的洞" class="headerlink" title="第四个他偷偷报大牛的洞"></a>第四个他偷偷报大牛的洞</h2><p>在团队技术大牛已经走了的情况下，他偷偷把大牛没有上报的bug报了领取奖励，这事不是一般的下流。而且干了不止一次。</p><h2 id="最后呢"><a href="#最后呢" class="headerlink" title="最后呢"></a>最后呢</h2><p>这些都是旧事了，但是萌新可能不知道，一些想邀请他的人也不知道，写个帖子，留作记录，给大家避坑。</p><p>其它关于他为人处事的故事我不必多说，坊间都有”佳话”，至于事实证明，可以问当事人，想必你肯定可以听到更有意思的故事(❛ᴗ❛)</p><p><strong>还有件事就是，任何时候，都不要把自己的办公电脑密码给别人，除非你很信得过那个人！！！</strong></p><p>我当时因为不想跟着这混蛋，又因为一些其它原因，就没有换团队，而是打算离开360。17年7月的时候毕业了，准备回去办离职，忘了因为什么事情（好像是我需要远程登录吧），就让他帮我登录了下我的办公电脑。后来我怕他乱动我的文件，就给一些文件加密了，因为远程vpn连接不方便直接改密码，所以没改。后来准备办离职，需要登录，结果我的密码被他改了，他还不肯告诉我，说怕我泄露公司机密。excuse me？？我自己的办公电脑，有啥我自己不能看的？我都还没有办离职，看自己电脑怎么了？</p><p>其实就是他想偷看我的文件，结果发现我加密了文件，所以他就把我密码改了（这个不是猜的，他说的）。搞得我没办法正常离职，后来不了了之（因为是实习，实习协议也到期了，我也给了我该给的交接文件）。</p><p>这件事我只能说是我自己太单纯，写出来也是给萌新提个醒，不要轻易信任别人而给出你的密码。</p><h2 id="相关技术演讲"><a href="#相关技术演讲" class="headerlink" title="相关技术演讲"></a>相关技术演讲</h2><p>[1] Wei Xiao, Qinghao Tang, “qemu+kvm &amp; xen pwn: virtual machine escape from ‘Dark Portal’”</p><p>[2] CSW2017 Qinghao tang+Xinlei ying vmware_escape_final</p><h2 id="方便大家吃瓜-给个对比图"><a href="#方便大家吃瓜-给个对比图" class="headerlink" title="方便大家吃瓜, 给个对比图"></a>方便大家吃瓜, 给个对比图</h2><p><img src="/images/fuck_tqh/fuck_tqh.jpg" alt="t1"></p><h2 id="贴下之前的评论"><a href="#贴下之前的评论" class="headerlink" title="贴下之前的评论"></a>贴下之前的评论</h2><p><img src="/images/fuck_tqh/bianshi.png" alt="t2"></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一直懒得吐槽&lt;a href=&quot;https://cn.linkedin.com/in/%E9%9D%92%E6%98%8A-%E5%94%90-1b78229b&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;唐青昊&lt;/a&gt;🖕，毕竟遇到糟糕的leader大不了走人，但是有些东西会随着时间忘记，导致后来的人继续掉坑里。所以还是发个文，曝光一下这个人，让大家认清这个人，不要被他简历上的”成就”蒙蔽了双眼。&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>linux 内核和用户态通信之 /proc文件系统</title>
     <link href="http://474172261.github.io/2020/03/29/linux-proc/"/>
     <id>http://474172261.github.io/2020/03/29/linux-proc/</id>
