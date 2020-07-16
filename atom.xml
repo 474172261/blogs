@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://474172261.github.io/"/>
-  <updated>2020-07-16T01:55:32.391Z</updated>
+  <updated>2020-04-21T03:12:10.259Z</updated>
   <id>http://474172261.github.io/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>文章更新测试</title>
-    <link href="http://474172261.github.io/2020/07/16/test/"/>
-    <id>http://474172261.github.io/2020/07/16/test/</id>
-    <published>2020-07-16T01:54:20.421Z</published>
-    <updated>2020-07-16T01:55:32.391Z</updated>
-    
-    <content type="html"><![CDATA[<p>测试github更新速度.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;测试github更新速度.&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>在ESXi中调试运行虚拟机的vmx程序(How to debug vmx in ESXi)</title>
