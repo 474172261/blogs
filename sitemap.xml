@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://474172261.github.io/2020/08/26/rdp_mem_leak_bug/</loc>
+    
+    <lastmod>2020-08-26T04:00:28.980Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://474172261.github.io/2020/04/21/debug_vmx_in_esxi/</loc>
     
     <lastmod>2020-04-21T03:12:10.259Z</lastmod>
